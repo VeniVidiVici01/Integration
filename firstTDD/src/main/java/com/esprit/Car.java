@@ -5,13 +5,24 @@ import java.util.List;
 
 import com.esprit.exception.CouldNotStartException;
 
-//this is a car
+/**
+ * cette interface decrit une implementation
+ * @author PC-HP
+ *
+ */
 public class Car {
 
-	
+	/**
+	 * injection d'un smsModule
+	 */
 	SMSModule smsModule;
 	
 	private boolean started=false;
+	
+	/**
+	 * 
+	 * @param direction direction des cles
+	 */
 	
 	public void turnKey(String direction) {
 		
