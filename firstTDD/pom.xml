@@ -23,11 +23,11 @@
 <distributionManagement>
 <repository>
 <id>deployment</id>
-<url>http://localhost:8081/nexus/content/repositories/releases/</url>
+<url>http://192.168.43.210:8081/nexus/content/repositories/releases/</url>
 </repository>
 <snapshotRepository>
 <id>deployment</id>
-<url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+<url>http://192.168.43.210:8081/nexus/content/repositories/snapshots/</url>
 </snapshotRepository>
 </distributionManagement>
 </project>
